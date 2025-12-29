@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+#      ddl-auto: validate
+      ddl-auto: create
+    show-sql: false
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui
+    operationsSorter: method
+    tagsSorter: alpha
+
+app:
+  data:
+    initializer:
+      enabled: false
+
+logging:
+  level:
+    root: INFO

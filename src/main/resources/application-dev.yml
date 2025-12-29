@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/lms}
+    username: ${DB_USERNAME:lms}
+    password: ${DB_PASSWORD:lms}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+#      ddl-auto: update
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui
+    operationsSorter: method
+    tagsSorter: alpha
+
+app:
+  data:
+    initializer:
+      enabled: true
+
+logging:
+  level:
+    com.example.lms: DEBUG

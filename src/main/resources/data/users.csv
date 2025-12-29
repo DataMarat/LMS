@@ -1,0 +1,12 @@
+id,first_name,last_name,email,status,role
+1,Admin,User,admin@example.com,ACTIVE,ADMIN
+2,John,Teacher,teacher@example.com,ACTIVE,TEACHER
+3,Alice,Student,alice@example.com,ACTIVE,STUDENT
+4,Bob,Student,bob@example.com,ACTIVE,STUDENT
+5,Emma,Student,emma@example.com,ACTIVE,STUDENT
+6,Noah,Student,noah@example.com,ACTIVE,STUDENT
+7,Olivia,Student,olivia@example.com,ACTIVE,STUDENT
+8,Liam,Student,liam@example.com,ACTIVE,STUDENT
+9,Sophia,Student,sophia@example.com,ACTIVE,STUDENT
+10,James,Student,james@example.com,ACTIVE,STUDENT
+11,Mia,Student,mia@example.com,ACTIVE,STUDENT

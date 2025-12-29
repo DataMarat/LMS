@@ -1,0 +1,20 @@
+# Базовый application.yml (без секретов)
+
+spring:
+  application:
+    name: lms
+
+  profiles:
+    default: dev
+
+  jpa:
+    open-in-view: false
+
+app:
+  data:
+    initializer:
+      enabled: true
+
+logging:
+  level:
+    root: INFO
